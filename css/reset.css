@@ -1,0 +1,79 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgba(255,255,255,0.9);
+	background-image: url(../images/bg.gif);
+}
+/*=======login CSS start ========*/
+.login_section{
+	padding: 100px 0px;
+}
+.login_bg{
+	background-color: #8268FC;
+	padding: 15px 0px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+	background: -moz-linear-gradient(top, #7579ff, #b224ef);
+	background: -o-linear-gradient(top, #7579ff, #b224ef);
+	background: -ms-linear-gradient(top, #7579ff, #b224ef);
+}
+.logo{
+	padding: 25px 0px;
+}
+.logo img{
+	border-radius: 50%;
+}
+.logo h3{
+	padding-top: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.logo p{
+	color: #fff;
+	padding-top: 5px;
+}
+.custom_form{
+	padding: 0px 45px;
+}
+.form-control {
+    font-size: 12px;
+}
+
+.buttom{
+	padding: 20px 0px;
+}
+.btn_custom{
+	border-radius: 25px;
+    padding: 8px 40px;
+    display: block;
+    margin: 0 auto;
+}
+.btn_custom:hover{
+	background-color: #9152f8;
+	color: #fff;
+	transition: 0.5s;
+	background: -webkit-linear-gradient(bottom, #7579ff, #b224ef);
+	background: -moz-linear-gradient(bottom, #7579ff, #b224ef);
+	background: -o-linear-gradient(bottom, #7579ff, #b224ef);
+	background: -ms-linear-gradient(bottom, #7579ff, #b224ef);
+}
+/*=======login CSS end ========*/
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 768px) { 
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
